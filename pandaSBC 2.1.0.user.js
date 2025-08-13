@@ -33,6 +33,7 @@
     const SP_STABLE_FOR = 300; //色卡填充稳定时间（ms） ，如果填充色卡不稳定可以调大,建议500，100一加，自己尝试
     const SP_FILL_SUCCESS_TIME = 1000; //色卡填充是否成功检测时间（ms），如果填充色卡不稳定可以调大
     const ranges = [
+        { range: [75, 81], type: 'all' },   // all = 俱乐部+仓库
         { range: [82, 86], type: 'all' },   // all = 俱乐部+仓库
         { range: [87, 88], type: 'all' },
         { range: [89, 96], type: 'all' },
